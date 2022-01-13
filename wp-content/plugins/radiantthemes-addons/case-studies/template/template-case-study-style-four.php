@@ -67,7 +67,7 @@ if ( $my_query->have_posts() ) {
 
 		$terms = get_the_terms( get_the_ID(), 'case-study-category' );
 
-		echo $terms;
+		var_dump( $terms );
 
 		$output .= '<div class="rt-case-study-box-item ';
 		foreach ( $terms as $term ) {
