@@ -63,7 +63,7 @@ if ( $my_query->have_posts() ) {
 	while ( $my_query->have_posts() ) :
 		$my_query->the_post();
 
-		var_dump( $my_query->the_post());
+		
 
 		$terms = get_the_terms( get_the_ID(), 'case-study-category' );
 
