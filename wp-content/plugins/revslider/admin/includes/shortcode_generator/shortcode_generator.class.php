@@ -28,7 +28,7 @@ class RevSliderShortcodeWizard extends RevSliderFunctions {
 	public static function add_styles(){
 		wp_enqueue_style('revslider-material-icons', RS_PLUGIN_URL . 'public/assets/fonts/material/material-icons.css', array(), RS_REVISION);
 		//wp_enqueue_style('revslider-material-icons', RS_PLUGIN_URL . 'admin/assets/icons/material-icons.css', array(), RS_REVISION);
-		wp_enqueue_style('revslider-basics-css', RS_PLUGIN_URL . 'admin/assets/css/basics.css', array(), RS_REVISION);
+		wp_enqueue_style('revslider-basics-css', RS_PLUGIN_URL . 'admin/assets/css/basics.css', array(), rand(1,999));
 		wp_enqueue_style('rs-color-picker-css', RS_PLUGIN_URL . 'admin/assets/css/tp-color-picker.css', array(), RS_REVISION);
 		wp_enqueue_style('revbuilder-ddTP', RS_PLUGIN_URL . 'admin/assets/css/ddTP.css', array(), RS_REVISION);
 		wp_enqueue_style('rs-roboto', '//fonts.googleapis.com/css?family=Roboto');
