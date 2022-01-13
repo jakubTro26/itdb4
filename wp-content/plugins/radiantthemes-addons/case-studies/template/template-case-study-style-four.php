@@ -67,9 +67,7 @@ if ( $my_query->have_posts() ) {
 
 		$terms = get_the_terms( get_the_ID(), 'case-study-category' );
 
-		if($terms->name == 'Backup Summit'){
-			echo 'kuba';
-		}
+		
 
 		$output .= '<div class="rt-case-study-box-item ';
 		foreach ( $terms as $term ) {
@@ -104,7 +102,16 @@ if ( $my_query->have_posts() ) {
 		    $output .= '<p>' . wp_trim_words( get_the_excerpt(), 10, '...' ) . '</p>';
 		}
 		if ( true == $shortcode['case_study_enable_link_button'] && ! empty( $shortcode['case_study_link_button_text'] ) ) {
-		    $output .= '<a class="btn a" href="' . get_the_permalink() . '">' . esc_html( $shortcode['case_study_link_button_text'] ) . '<i class="fa fa-angle-right"></i></a>';
+			if(get_the_permalink()=='http://itdb.biz/case-studies/backupsummit/"'){
+				$output .= '<a class="btn a" href="' . 'Backupstorage.pl' . '">' . esc_html( $shortcode['case_study_link_button_text'] ) . '<i class="fa fa-angle-right"></i></a>';
+			}
+			if(){
+				
+			}
+			if(){
+				
+			}
+		   
 		}
 		$output .= '</div>';
 		$output .= '</div>';
