@@ -69,6 +69,7 @@ if ( $my_query->have_posts() ) {
 			$output .= $term->slug . ' ';
 		}
 		$output .= $case_study_item_class . '" style="padding:' . esc_attr( $spacing_value ) . 'px;">';
+		echo $case_study_item_class;
 		$output .= '<div class="holder">';
 		$output .= '<div class="pic">';
 		$output .= '<img src="' . plugins_url( 'radiantthemes-addons/case-studies/images/blank-image-100x70.jpg' ) . '" alt="blank image" width="100" height="70">';
