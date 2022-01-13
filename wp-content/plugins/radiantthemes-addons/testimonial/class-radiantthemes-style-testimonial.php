@@ -839,7 +839,7 @@ if ( class_exists( 'WPBakeryShortCode' ) && ! class_exists( 'Radiantthemes_Style
 					}
 					if ( 'one' === $shortcode['testimonial_style'] ) {
 						$output .= '<div class="holder">';
-						$output .= '<div class="data matchHeight">';
+						$output .= '<div class="data matchHeight j">';
 						$output .= '<blockquote>';
 						$output .= '<p style="' . $content_text_font_inline_style . $content_text_style . '">';
 						$output .= esc_attr( get_the_content() );

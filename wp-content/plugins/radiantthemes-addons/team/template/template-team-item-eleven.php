@@ -14,7 +14,7 @@ $output .= '<div class="holder"><a href="' . get_the_permalink() . '">';
 $output .= get_the_post_thumbnail( get_the_ID(), 'full' );
 $output .= '</a></div>';
 $output .= '</div>';
-$output .= '<div class="data matchHeight">';
+$output .= '<div class="data matchHeight h">';
 $output .= '<h5><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></h5>';
 
 $terms = get_the_terms( get_the_ID(), 'profession' );

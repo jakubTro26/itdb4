@@ -78,7 +78,7 @@ if ( $my_query->have_posts() ) {
 		    $output .= '<a class="holder" href="' . get_the_permalink() . '" style="background-image:url(' . get_the_post_thumbnail_url( get_the_ID(), 'full' ) . ')"></a>';
 		}
 		$output .= '</div>';
-		$output .= '<div class="data matchHeight">';
+		$output .= '<div class="data matchHeight c">';
 		$output .= '<p class="category">';
 		foreach ( $terms as $term ) {
 			if ( $term !== end($terms) ) {

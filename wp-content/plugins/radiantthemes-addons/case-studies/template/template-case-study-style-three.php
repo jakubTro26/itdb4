@@ -70,7 +70,7 @@ if ( $my_query->have_posts() ) {
 		}
 		$output .= $case_study_item_class . '" style="padding:' . esc_attr( $spacing_value ) . 'px;">';
 		$output .= '<div class="holder">';
-		$output .= '<div class="data matchHeight">';
+		$output .= '<div class="data matchHeight d">';
 		$output .= '<p class="category">';
 		foreach ( $terms as $term ) {
 			if ( $term !== end($terms) ) {

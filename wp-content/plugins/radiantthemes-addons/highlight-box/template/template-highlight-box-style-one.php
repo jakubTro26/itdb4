@@ -7,7 +7,7 @@
  
 $output .= '<div class="row holder">';
 $output .= '<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">';
-$output .= '<div class="data matchHeight">';
+$output .= '<div class="data matchHeight f">';
 $output .= '<div class="table">';
 $output .= '<div class="table-cell">';
 $output .= '<h4>' . esc_attr( $shortcode['highlight_box_title'] ) . '</h4>';
