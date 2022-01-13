@@ -70,6 +70,7 @@ if ( $my_query->have_posts() ) {
 		$output .= '<div class="rt-case-study-box-item ';
 		foreach ( $terms as $term ) {
 			$output .= $term->slug . ' ';
+			echo $term->slug;
 		}
 		$output .= $case_study_item_class . '" style="padding:' . esc_attr( $spacing_value ) . 'px;">';
 		
