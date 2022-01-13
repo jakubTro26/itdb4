@@ -105,10 +105,10 @@ if ( $my_query->have_posts() ) {
 			if(get_the_permalink()=='http://itdb.biz/case-studies/backupsummit/"'){
 				$output .= '<a class="btn a" href="' . 'Backupstorage.pl' . '">' . esc_html( $shortcode['case_study_link_button_text'] ) . '<i class="fa fa-angle-right"></i></a>';
 			}
-			if(){
+			if(get_the_permalink()=='http://itdb.biz/case-studies/backupsummit/s"'){
 				
 			}
-			if(){
+			if(get_the_permalink()=='http://itdb.biz/case-studies/backupsummit/s"'){
 				
 			}
 		   
