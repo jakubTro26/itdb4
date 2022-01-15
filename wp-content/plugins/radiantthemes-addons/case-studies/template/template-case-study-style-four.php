@@ -105,8 +105,8 @@ if ( $my_query->have_posts() ) {
 			if(get_the_permalink()=='http://itdb.biz/case-studies/backupsummit/'){
 				$output .= '<a class="btn a" href="' . 'https://Backupstorage.pl' . '">' . esc_html( $shortcode['case_study_link_button_text'] ) . '<i class="fa fa-angle-right"></i></a>';
 			}
-			if(get_the_permalink()=='http://itdb.biz/case-studies/backupsummit/s"'){
-				
+			if(get_the_permalink()=='http://itdb.biz/case-studies/workflow/'){
+				$output .= '<a class="btn a" href="' . 'https://workflowtrends.pl' . '">' . esc_html( $shortcode['case_study_link_button_text'] ) . '<i class="fa fa-angle-right"></i></a>';
 			}
 			if(get_the_permalink()=='http://itdb.biz/case-studies/backupsummit/s"'){
 				
