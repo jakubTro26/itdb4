@@ -22,7 +22,7 @@
 				<div class="header-data">
 					<!-- header-data-contact -->
 					<div class="header-data-contact hidden-xs">
-						<p>kuba <strong><a href="tel:<?php echo esc_attr( consultix_global_var( 'top_bar_phone', '', false ) ); ?>"><?php echo esc_html( consultix_global_var( 'top_bar_phone', '', false ) ); ?></a></strong></p>
+						<p>SZYBKI KONTAKT <strong><a href="tel:<?php echo esc_attr( consultix_global_var( 'top_bar_phone', '', false ) ); ?>">739-006-262</a></strong></p>
 					</div>
 					<!-- header-data-contact -->
 					<?php if ( function_exists( 'icl_object_id' ) ) : ?>
