@@ -22,7 +22,7 @@
 				<div class="header-data">
 					<!-- header-data-contact -->
 					<div class="header-data-contact hidden-xs">
-						<p><?php echo esc_html( consultix_global_var( 'top_bar_contact', '', false ) ); ?> <strong><a href="tel:<?php echo esc_attr( consultix_global_var( 'top_bar_phone', '', false ) ); ?>"><?php echo esc_html( consultix_global_var( 'top_bar_phone', '', false ) ); ?></a></strong></p>
+						<p>kuba <strong><a href="tel:<?php echo esc_attr( consultix_global_var( 'top_bar_phone', '', false ) ); ?>"><?php echo esc_html( consultix_global_var( 'top_bar_phone', '', false ) ); ?></a></strong></p>
 					</div>
 					<!-- header-data-contact -->
 					<?php if ( function_exists( 'icl_object_id' ) ) : ?>
