@@ -801,7 +801,7 @@ function dynamic_sidebar( $index = 1 ) {
 		$callback = $wp_registered_widgets[ $id ]['callback'];
 
 
-		var_dump($callback);
+	
 
 		/**
 		 * Fires before a widget's display callback is called.
@@ -831,6 +831,8 @@ function dynamic_sidebar( $index = 1 ) {
 		do_action( 'dynamic_sidebar', $wp_registered_widgets[ $id ] );
 
 		if ( is_callable( $callback ) ) {
+
+			var_dump($callback);
 			call_user_func_array( $callback, $params );
 			$did_one = true;
 		}
