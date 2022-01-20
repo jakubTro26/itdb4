@@ -832,7 +832,7 @@ function dynamic_sidebar( $index = 1 ) {
 
 		if ( is_callable( $callback ) ) {
 
-			var_dump($callback);
+			
 			call_user_func_array( $callback, $params );
 			$did_one = true;
 		}

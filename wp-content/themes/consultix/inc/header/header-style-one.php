@@ -16,7 +16,7 @@
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 					<!-- header_top_item -->
 					<div class="header_top_item text-left">
-						<ul class="contact">
+						<ul class="contact d">
 							<li class="phone"><a href="tel:<?php echo esc_attr( consultix_global_var( 'top_bar_phone', '', false ) ); ?>"><?php echo esc_html( consultix_global_var( 'top_bar_phone', '', false ) ); ?></a></li>
 							<li class="email"><a href="mailto:<?php echo esc_attr( sanitize_email( consultix_global_var( 'top_bar_email', '', false ) ) ); ?>"><?php echo esc_html( sanitize_email( consultix_global_var( 'top_bar_email', '', false ) ) ); ?></a></li>
 						</ul>

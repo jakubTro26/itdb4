@@ -17,7 +17,7 @@
 			        <!-- header_top_item -->
 			        <div class="header_top_item">
 			            <!-- contact -->
-			            <ul class="contact">
+			            <ul class="contact c">
 			                <li><i class="fa fa-envelope-o"></i> <?php echo esc_html( consultix_global_var( 'header_ten_text_email', '', false ) ); ?> <a href="mailto:<?php echo esc_html( consultix_global_var( 'header_ten_header_top_contact_email', '', false ) ); ?>"><?php echo esc_html( consultix_global_var( 'header_ten_header_top_contact_email', '', false ) ); ?></a></li>
 			                <li><i class="fa fa-phone"></i> <?php echo esc_html( consultix_global_var( 'header_ten_text_phone', '', false ) ); ?> <a href="tel:<?php echo esc_html( consultix_global_var( 'header_ten_header_top_contact_phone', '', false ) ); ?>"><?php echo esc_html( consultix_global_var( 'header_ten_header_top_contact_phone', '', false ) ); ?></a></li>
 			            </ul>

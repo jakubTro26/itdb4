@@ -45,7 +45,7 @@ class Consultix_Contact_Box_Widget extends WP_Widget {
 
 		// This is where you run the code and display the output.
 		
-		$output = '<ul class="contact">
+		$output = '<ul class="contact a">
 							<li class="address">
 								' . esc_html( $addressdata ) .
 		'</li>
