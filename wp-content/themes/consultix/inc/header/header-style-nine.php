@@ -56,7 +56,7 @@
     					<!-- header-data-translator -->
     					<?php endif; ?>
     					<!-- header-data-social -->
-    					<div class="header-data-social">
+    					<div class="header-data-social c">
     					    <p><?php echo esc_html( consultix_global_var( 'header_nine_header_top_social_text', '', false ) ); ?></p>
     					    <?php
     						if ( true == consultix_global_var( 'social-icon-target', '', false ) ) {
