@@ -65,7 +65,7 @@
 
 				for ( $j = 1; $j <= 4; $j++ ) {
 					if ( is_active_sidebar( 'consultix-footer-area-' . $j ) ) {
-						echo wp_kses_post( $footer_class ) . '<div class="footer_main_item matchHeight">';
+						echo wp_kses_post( $footer_class ) . '<div class="footer_main_item matchHeight a">';
 						dynamic_sidebar( 'consultix-footer-area-' . $j );
 						echo '</div>
 									 </div>';
