@@ -15,7 +15,7 @@
 			<div class="header_main">
 				<!-- brand-logo -->
 				<div class="brand-logo radiantthemes-retina ef">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="http://itdb.biz/wp-content/uploads/2022/01/3-1.png"></a>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="http://itdb.biz/wp-content/uploads/2022/01/3-2.png"></a>
 				</div>
 				<!-- brand-logo -->
 				<!-- header-data -->
