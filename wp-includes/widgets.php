@@ -801,7 +801,7 @@ function dynamic_sidebar( $index = 1 ) {
 		$callback = $wp_registered_widgets[ $id ]['callback'];
 
 
-		echo $callback;
+		var_dump($callback);
 
 		/**
 		 * Fires before a widget's display callback is called.
