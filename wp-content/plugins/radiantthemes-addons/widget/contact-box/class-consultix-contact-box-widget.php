@@ -47,7 +47,11 @@ class Consultix_Contact_Box_Widget extends WP_Widget {
 		
 		$output = '<ul class="contact a">
 							<li class="address">
-								' . esc_html( $addressdata ) .
+							ul. Ryżowa 49 <br>
+							02-495 Warszawa <br>,
+							KRS: 0000826633
+
+								'   .
 		'</li>
 							<li class="phone">
 								' . esc_html( $phonenumber ) .
