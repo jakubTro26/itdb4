@@ -141,5 +141,5 @@
 
 document.querySelector('#menu-item-11360').onclick=function(){
 	console.log('kuba');
-	document.getElementById("doswiadczenie").scrollIntoView();
+	document.querySelector("#doswiadczenie").scrollTop();
 };
