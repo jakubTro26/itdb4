@@ -458,6 +458,9 @@ if ( class_exists( 'WPBakeryShortCode' ) && ! class_exists( 'Radiantthemes_Style
 			    $output .= '<div class="placeholder">';
 			}
 			
+
+			var_dump($output);
+
 			if ( ! empty( $shortcode['add_icon'] ) && 'left' === $shortcode['i_align'] ) {
 				$output .= '<i class="' . $icon_class . '"></i>';
 			}
