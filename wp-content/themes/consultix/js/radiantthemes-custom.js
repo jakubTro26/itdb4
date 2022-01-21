@@ -148,5 +148,5 @@ document.querySelector('#menu-item-11360').onclick=function(){
 
 document.querySelector('#menu-item-11366').onclick=function(){
 	
-	document.querySelector("..vc_custom_1642164675696").scrollIntoView();
+	document.querySelector(".vc_custom_1642164675696").scrollIntoView();
 };
