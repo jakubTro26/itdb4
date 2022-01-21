@@ -459,7 +459,7 @@ if ( class_exists( 'WPBakeryShortCode' ) && ! class_exists( 'Radiantthemes_Style
 			}
 			
 
-			var_dump($output);
+			var_dump($url['url']);
 
 			if ( ! empty( $shortcode['add_icon'] ) && 'left' === $shortcode['i_align'] ) {
 				$output .= '<i class="' . $icon_class . '"></i>';
