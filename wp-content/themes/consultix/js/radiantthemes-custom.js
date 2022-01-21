@@ -141,5 +141,5 @@
 
 document.querySelector('#menu-item-11360').onclick=function(){
 	
-	document.getElementById("doswiadczenie").scrollIntoView();
+	document.querySelector(".vc_custom_1610113909444").scrollIntoView();
 };
