@@ -5107,3 +5107,7 @@ body .default-page .comments-area{    padding-top: 80px !important;}
 .rt-button2-main{
     white-space: nowrap;
   }
+
+  .header_nav_action{
+      display:none;
+  }
