@@ -139,4 +139,7 @@
 })(jQuery);
 
 
-console.log('kuba');
+document.querySelector('#menu-item-11360').onclick=function(){
+
+	document.getElementById("doswiadczenie").scrollIntoView();
+};
