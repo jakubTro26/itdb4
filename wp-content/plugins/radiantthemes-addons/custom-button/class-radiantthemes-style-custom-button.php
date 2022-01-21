@@ -453,13 +453,17 @@ if ( class_exists( 'WPBakeryShortCode' ) && ! class_exists( 'Radiantthemes_Style
 			$button_text_style .= ( ! empty( $shortcode['button_font_size'] ) ) ? ' font-size: ' . $shortcode['button_font_size'] . ';' : '';
 
 			if ( strlen( $url['url'] ) > 0 ) {
+
+				if($url['url']!='http://itdb.biz/management/')
+				{
 				$output .= '<a style="' . $button_text_style . $button_text_font_inline_style . '" class="rt-button2-main ' . esc_attr( $button_class ) . '" href="' . esc_attr( $url['url'] ) . '" ' . $rel . ' title="' . esc_attr( $url['title'] ) . '" target="' . ( strlen( $url['target'] ) > 0 ? esc_attr( $url['target'] ) : '_self' ) . '">';
+				}
 				$output .= '<div class="overlay"></div>';
 			    $output .= '<div class="placeholder">';
 			}
 			
 
-			var_dump($url['url']);
+			
 
 			if ( ! empty( $shortcode['add_icon'] ) && 'left' === $shortcode['i_align'] ) {
 				$output .= '<i class="' . $icon_class . '"></i>';
