@@ -399,6 +399,7 @@ if ( class_exists( 'WPBakeryShortCode' ) && ! class_exists( 'Radiantthemes_Style
 			wp_enqueue_style( 'radiantthemes-custom-button' );
 
 			$button_random_class = 'ex' . substr( md5( microtime() ), 0, 15 );
+			$button_random_class = $button_random_class . 'kuba';
 			if ( ! empty( $shortcode['background_hover_color'] ) || ! empty( $shortcode['border_hover_color'] ) || ! empty( $shortcode['font_hover_color'] ) ) {
 			    $style = '.rt-button2.element-two.kuba.' . $button_random_class . ' .rt-button2-main:hover{';
 				    $style .= ( ! empty( $shortcode['border_hover_color'] ) ) ? ' border-top-color:' . $shortcode['border_hover_color'] . ' !important;border-bottom-color:' . $shortcode['border_hover_color'] . ' !important; border-left-color:' . $shortcode['border_hover_color'] . ' !important; border-right-color:' . $shortcode['border_hover_color'] . ' !important;' : '';
