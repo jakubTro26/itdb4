@@ -556,7 +556,7 @@ function consultix_scripts() {
 		'consultix-custom',
 		get_parent_theme_file_uri( '/js/radiantthemes-custom.js' ),
 		array( 'jquery' ),
-		rand(1,999),
+		rand(1,99),
 		true
 	);
 
