@@ -177,7 +177,7 @@ if(document.URL=="http://itdb.biz/referencje/")
 	$('.z1').onclick=function(){
 		var w1 =	$('.z1 img ').style.width;
 		var w2 =    $('.z1 img ').style.height;
-		var int1=setInterval(fun1,100,[w1,w2]);
+		var int1=setInterval(fun1,100,w1,w2);
 
 	}
 
@@ -186,11 +186,12 @@ if(document.URL=="http://itdb.biz/referencje/")
 
 	fun1=function(){
 		
-
-			w1+=5;
-			w2+=5;
-			$('.z1 img ').style.width = w1;
-			$('.z1 img ').style.height = w2;
+			wid1 = w1;
+			wid2 = w2
+			wid1+=5;
+			wid2+=5;
+			$('.z1 img ').style.width = wid1;
+			$('.z1 img ').style.height = wid2;
 
 	}
 }
