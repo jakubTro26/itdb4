@@ -161,7 +161,8 @@ document.querySelector('.vc_custom_1642766971322').onclick=function(){
 }
 
 
-const q = document.querySelectorAll.bind(document);
+$ = document.querySelector.bind(document)
+$$ = document.querySelectorAll.bind(document)
 
 
 if(document.URL=="http://itdb.biz/referencje/")
@@ -173,7 +174,7 @@ if(document.URL=="http://itdb.biz/referencje/")
 	document.querySelector('.z1 img').style.width="100%";
 
 	
-	q('.z1').onclick=function(){
+	$('.z1').onclick=function(){
 		var int1=setInterval(fun1,100);
 
 	}
@@ -183,7 +184,7 @@ if(document.URL=="http://itdb.biz/referencje/")
 
 	fun1=function(){
 			console.log('kuba');
-			q('.z1 img ').style.width;
-			q('.z1 img ').style.height;;
+			$('.z1 img ').style.width;
+			$('.z1 img ').style.height;;
 	}
 }
