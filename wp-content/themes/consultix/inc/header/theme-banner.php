@@ -917,6 +917,77 @@ if ( is_front_page() && is_home() ) { ?>
 			<!-- wraper_inner_banner_breadcrumb -->
 			<?php } ?>
 		<div class="zdjecia">
+							<div class="column1">
+								<div class="z1">
+									<img src="https://www.pureconferences.pl/wp-content/uploads/2015/04/referencja_microsoft1-717x1024.jpg">
+								</div>
+								<div class="z2">
+									<img src="https://www.pureconferences.pl/test/refe/3533_001.jpg">
+								</div>
+								<div  class="z3">
+									<img src="https://www.pureconferences.pl/test/refe/20140711091048953.jpg">
+								</div>
+								<div  class="z4">
+									<img src="https://www.pureconferences.pl/test/refe/bssg_referencja.jpg">
+								</div>
+								<div class="z5">
+									<img src="https://www.pureconferences.pl/test/refe/datacom_referencja.jpg">
+								</div>
+								<div  class="z6">
+									<img src="https://www.pureconferences.pl/test/refe/filmmedia_referencja.jpg">
+								</div>
+								<div  class="z7">
+									<img src="https://www.pureconferences.pl/test/refe/heuthes_referencja.jpg">
+								</div>
+							</div>
+							<div class="column2">
+								<div  class="z8">
+									<img src="https://www.pureconferences.pl/test/refe/imagis_referencja.jpg">
+								</div>
+								<div  class="z9">
+									<img src="https://www.pureconferences.pl/test/refe/it_systems_and_solutions.jpg">
+								</div>
+								<div  class="z10">
+									<img src="https://www.pureconferences.pl/test/refe/neptis_referencja.jpg">
+								</div>
+								<div  class="z11">
+									<img src="https://www.pureconferences.pl/test/refe/petrosoft_referencja.jpg">
+								</div>
+								<div  class="z12">
+									<img src="https://www.pureconferences.pl/test/refe/sii_referencja.jpg">
+								</div> 
+								<div  class="z13">
+									<img src="https://www.pureconferences.pl/test/refe/socomec_referencja.jpg">
+								</div>
+								<div  class="z14">
+									<img src="https://www.pureconferences.pl/test/refe/ttsoft_referencja.jpg">
+								</div>
+
+							</div>
+							<div class="column3">
+								<div  class="z15">
+									<img src="https://www.pureconferences.pl/wp-content/uploads/2015/05/Plagiat.pl_Referencje_Pure_Conferences-717x1024.jpg">
+								</div>
+								<div  class="z16">
+									<img src="https://www.pureconferences.pl/wp-content/uploads/2015/10/Lionbridge-referencje-791x1024.jpg">
+								</div>
+								<div  class="z17">
+									<img src="https://www.pureconferences.pl/wp-content/uploads/2015/10/Lionbridge-referencje-791x1024.jpg">
+								</div>
+								<div  class="z18">
+									<img src="https://www.pureconferences.pl/wp-content/uploads/2015/10/Obraz-11-737x1024.jpg">
+								</div>
+								<div  class="z19">
+									<img src="https://www.pureconferences.pl/wp-content/uploads/2015/12/Nowy-Dokument-3_1-807x1024.jpg">
+								</div>
+								<div  class="z20">
+									<img src="https://www.pureconferences.pl/wp-content/uploads/2016/04/ref.jpg">
+								</div>
+								<div  class="z21">
+									<img src="https://www.pureconferences.pl/wp-content/uploads/2016/04/refa.jpg">
+								</div>
+
+							</div>
 
 		</div>
 		</div>

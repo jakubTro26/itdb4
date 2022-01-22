@@ -5145,3 +5145,36 @@ body .default-page .comments-area{    padding-top: 80px !important;}
   .mailto{
     color:white;
   }
+
+  @media (min-width: 1200px)
+  {
+.zdjecia {
+    width: 1170px;
+    }
+  }
+
+  @media (min-width: 992px)
+{
+    .zdjecia {
+    width: 970px;
+}
+}
+  .zdjecia {
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 768px)
+{
+.zdjecia {
+    width: 750px;
+}
+}
+
+.column1,.column2,.column3{
+    display:flex
+}
+
+.z1,.z2,.z3,.z4,.z5,.z6,.z6,.z8,.z9,.z10,.z11,.z12,.z13,.z14,.z15,.z16,.z17,.z18,.z19,.z20,.z21{
+    flex:14.28%;
+}
