@@ -160,10 +160,14 @@ document.querySelector('.vc_custom_1642766971322').onclick=function(){
 
 }
 
+
+const q = document.querySelectorAll.bind(document);
+
+
 if(document.URL=="http://itdb.biz/referencje/")
 {
 
-	const q = document.querySelectorAll.bind(document);
+	
 
 	document.querySelector('.z1 img').style.maxWidth="none";
 	document.querySelector('.z1 img').style.width="100%";
