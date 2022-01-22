@@ -5175,9 +5175,16 @@ body .default-page .comments-area{    padding-top: 80px !important;}
     display:flex
 }
 
-.z1,.z2,.z3,.z4,.z5,.z6,.z7,.z8,.z9,.z10,.z11,.z12,.z13,.z14,.z15,.z16,.z17,.z18,.z19,.z20,.z21{
+.z1 ,.z2,.z3 ,.z4,.z5,.z6,.z7,.z8,.z9,.z10,.z11,.z12,.z13,.z14,.z15,.z16,.z17,.z18,.z19,.z20,.z21{
     flex:14.28%;
-    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    
     margin: 14px;
     border-radius: 10px;
+}
+
+.z1 img ,.z2 img,.z3 img ,.z4 img,.z5 img,.z6 img,.z7 img,.z8 img,.z9 img,.z10 img,.z11 img,.z12 img,.z13 img,.z14 img,.z15 img,.z16 img,.z17 img,.z18 img,.z19 img,.z20 img,.z21 img{
+    
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    
+    
 }
