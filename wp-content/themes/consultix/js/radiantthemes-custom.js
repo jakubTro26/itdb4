@@ -163,13 +163,13 @@ document.querySelector('.vc_custom_1642766971322').onclick=function(){
 if(document.URL=="http://itdb.biz/referencje/")
 {
 
-	var q = document.querySelectorAll
+	
 
 	document.querySelector('.z1 img').style.maxWidth="none";
 	document.querySelector('.z1 img').style.width="100%";
 
 	
-	q('.z1').onclick=function(){
+	document.querySelector('.z1').onclick=function(){
 		var int1=setInterval(fun1,100);
 
 	}
@@ -178,7 +178,7 @@ if(document.URL=="http://itdb.biz/referencje/")
 	
 
 	fun1=function(){
-		
+			console.log('kuba');
 
 	}
 }
