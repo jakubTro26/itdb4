@@ -165,11 +165,11 @@ if(document.URL=="http://itdb.biz/referencje/")
 
 
 
-var a  =	document.querySelector('.z1').onclick=function(){
+	document.querySelector('.z1').onclick=function(){
 	document.querySelector(".z1 img").animate([
 		// keyframes
-		{ width: '100px' },
-		{ width: '200px' }
+		{ width: '70%' },
+		{ width: '100%' }
 	  ], {
 		// timing options
 		duration: 300,
