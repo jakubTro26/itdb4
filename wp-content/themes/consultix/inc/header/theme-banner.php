@@ -462,7 +462,7 @@ if ( is_front_page() && is_home() ) { ?>
 			) {
 			?>
 		    <!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main o">
+			<div class="wraper_inner_banner_main oj">
 				<?php 
 					var_dump(body_class());
 				
