@@ -5141,3 +5141,7 @@ body .default-page .comments-area{    padding-top: 80px !important;}
     border-radius: 4px;
     margin: initial;
   }
+
+  .mailto{
+    color:white;
+  }

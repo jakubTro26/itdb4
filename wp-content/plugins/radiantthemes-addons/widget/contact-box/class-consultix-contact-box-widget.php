@@ -57,7 +57,7 @@ class Consultix_Contact_Box_Widget extends WP_Widget {
 								' . esc_html( $phonenumber ) .
 		'</li>
 							<li class="email">
-								' . '<a href=" kontakt@itdb.biz" >' . esc_html( $emailid ) . '</a>' .
+								' . '<a class="mailto" href=" kontakt@itdb.biz" >' . esc_html( $emailid ) . '</a>' .
 		'</li>
 
 						</ul>';
