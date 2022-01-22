@@ -64,7 +64,7 @@
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 					<!-- footer_copyright_item -->
 					<div class="footer_copyright_item text-left f">
-					    <p><?php echo wp_kses_post( consultix_global_var( 'footer_copyright_bar', '', false ) ); ?></p>
+					    <p><?php echo 'ITDB Sp. z o.o.  &copy; All Rights Reserved'; ?></p>
 					</div>
 					<!-- footer_copyright_item -->
 				</div>
