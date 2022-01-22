@@ -177,7 +177,7 @@ if(document.URL=="http://itdb.biz/referencje/")
 	$('.z1').onclick=function(){
 		var w1 =	$('.z1 img ').style.width;
 		var w2 =    $('.z1 img ').style.height;
-		var int1=setInterval(fun1,100);
+		var int1=setInterval(fun1,100,w1,w2);
 
 	}
 
