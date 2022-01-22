@@ -175,6 +175,8 @@ if(document.URL=="http://itdb.biz/referencje/")
 
 	
 	$('.z1').onclick=function(){
+		var w1 =	$('.z1 img ').style.width;
+		var w2 =    $('.z1 img ').style.height;
 		var int1=setInterval(fun1,100);
 
 	}
@@ -183,8 +185,12 @@ if(document.URL=="http://itdb.biz/referencje/")
 	
 
 	fun1=function(){
-			console.log('kuba');
-			$('.z1 img ').style.width;
-			$('.z1 img ').style.height;;
+		
+
+			w1+=5;
+			w2+=5;
+			$('.z1 img ').style.width = w1;
+			$('.z1 img ').style.height = w2;
+
 	}
 }
