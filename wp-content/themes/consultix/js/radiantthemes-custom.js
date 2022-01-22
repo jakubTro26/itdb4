@@ -189,8 +189,8 @@ if(document.URL=="http://itdb.biz/referencje/")
 
 			w1+=5;
 			w2+=5;
-			wid1p="\'"+w1+"px";
-			wid2p="\'"+w2+"px";
+			wid1p=w1+"px";
+			wid2p=w2+"px";
 			$('.z1 img ').style.width = wid1p;
 			$('.z1 img ').style.height = wid2p;
 
