@@ -178,7 +178,7 @@ if(document.URL=="http://itdb.biz/referencje/")
 
 	$( ".z1" ).click(function() {
 		$( ".z1 img" ).animate({
-		  width: 2.0,
+		  width: 200,
 		  left: "",
 		  height: ""
 		}, 5000, function() {
