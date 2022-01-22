@@ -13,10 +13,10 @@
 	<div class="wraper_footer_copyright">
 		<div class="container">
 			<!-- row -->
-			<div class="row footer_copyright">
+			<div class="row footer_copyright a">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 					<!-- footer_copyright_item -->
-					<div class="footer_copyright_item text-left">
+					<div class="footer_copyright_item text-left a">
 						<?php
 						wp_nav_menu(
 							array(

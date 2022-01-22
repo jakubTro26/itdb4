@@ -63,7 +63,7 @@
 			<div class="row footer_copyright">
 				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 					<!-- footer_copyright_item -->
-					<div class="footer_copyright_item text-left">
+					<div class="footer_copyright_item text-left b">
 					    <?php
 						wp_nav_menu(
 							array(
