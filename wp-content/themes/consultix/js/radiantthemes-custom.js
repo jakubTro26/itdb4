@@ -169,7 +169,7 @@ if(document.URL=="http://itdb.biz/referencje/")
 	document.querySelector('.z1 img').style.width="100%";
 
 	
-	document.querySelector('.z1').click()=function(){
+	document.querySelector('.z1').click=function(){
 		var int1=setinterval(fun1,1000);
 
 	}
