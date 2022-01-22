@@ -178,7 +178,7 @@ if(document.URL=="http://itdb.biz/referencje/")
 	
 
 	fun1=function(){
-			console.log('kuba');
-
+			document.querySelector('.z1 img ').style.width+=10;
+			document.querySelector('.z1 img ').style.height+=10;
 	}
 }
