@@ -155,3 +155,16 @@ document.querySelector('.vc_custom_1642766971322').onclick=function(){
 	
 	document.querySelector(".wraper_footer_main").scrollIntoView();
 };
+
+
+document.querySelector('.z1').onclick=function(){
+	document.getElementById(".z1 image").animate([
+		// keyframes
+		{ width: '100px;' },
+		{ width: '200px' }
+	  ], {
+		// timing options
+		duration: 1000,
+		iterations: Infinity
+	  });
+}
