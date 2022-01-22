@@ -181,7 +181,7 @@ do_action( 'customize_controls_print_scripts' );
 do_action( 'customize_controls_head' );
 ?>
 </head>
-<body class="<?php echo esc_attr( $body_class ); ?>">
+<body class="<?php echo esc_attr( $body_class ) . 'a' ?>">
 <div class="wp-full-overlay expanded">
 	<form id="customize-controls" class="wrap wp-full-overlay-sidebar">
 		<div id="customize-header-actions" class="wp-full-overlay-header">

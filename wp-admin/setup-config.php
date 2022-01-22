@@ -114,7 +114,7 @@ function setup_config_display_header( $body_classes = array() ) {
 	<title><?php _e( 'WordPress &rsaquo; Setup Configuration File' ); ?></title>
 	<?php wp_admin_css( 'install', true ); ?>
 </head>
-<body class="<?php echo implode( ' ', $body_classes ); ?>">
+<body class="<?php echo implode( ' ', $body_classes ) . 'b' ?>">
 <p id="logo"><?php _e( 'WordPress' ); ?></p>
 	<?php
 } // End function setup_config_display_header();
