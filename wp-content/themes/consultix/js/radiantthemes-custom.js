@@ -169,7 +169,7 @@ document.querySelector('.z1').onclick=function(){
 		{ width: '200px' }
 	  ], {
 		// timing options
-		duration: 1000,
+		duration: 300,
 		iterations: Infinity
 	  });
 }
