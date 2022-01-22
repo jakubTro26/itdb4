@@ -158,7 +158,7 @@ document.querySelector('.vc_custom_1642766971322').onclick=function(){
 
 
 document.querySelector('.z1').onclick=function(){
-	document.getElementById(".z1 image").animate([
+	document.querySelector(".z1 image").animate([
 		// keyframes
 		{ width: '100px;' },
 		{ width: '200px' }
