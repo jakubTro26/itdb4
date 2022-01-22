@@ -163,29 +163,22 @@ document.querySelector('.vc_custom_1642766971322').onclick=function(){
 if(document.URL=="http://itdb.biz/referencje/")
 {
 
-	
+	const q = document.querySelectorAll.bind(document);
 
 	document.querySelector('.z1 img').style.maxWidth="none";
 	document.querySelector('.z1 img').style.width="100%";
 
 	
+	q('.z1').click()=function(){
+		var int1=setinterval(fun1,1000);
 
-	jQuery(document).ready(function($){
-		//you can now use $ as your jQuery object.
-		var body = $( 'body' );
-	 
-
-
-	$( ".z1" ).click(function() {
-		$( ".z1 img" ).animate({
-		  transform: scale(2) ,
-		  left: "",
-		  height: ""
-		}, 1000, function() {
-		  // Animation complete.
-		});
-	  });
+	}
 
 
-	});
+	
+
+	fun1=function(){
+		console.log(int1);
+
+	}
 }
