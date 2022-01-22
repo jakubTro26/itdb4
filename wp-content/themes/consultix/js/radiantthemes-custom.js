@@ -166,7 +166,7 @@ if(document.URL=="http://itdb.biz/referencje/")
 	
 
 	document.querySelector('.z1 img').style.maxWidth="none";
-	document.querySelector('.z1 img').style.width="100%";
+	document.querySelector('.z1 img').style.width="none";
 
 	document.querySelector('.z1').onclick=function(){
 	document.querySelector(".z1 img").animate([
@@ -175,7 +175,8 @@ if(document.URL=="http://itdb.biz/referencje/")
 		{ width: '200%' }
 	  ], {
 		// timing options
-		duration: 300
+		duration: 300,
+		iterations: 1
 		 
 	  });
 }
