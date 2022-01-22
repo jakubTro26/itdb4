@@ -163,9 +163,10 @@ document.querySelector('.vc_custom_1642766971322').onclick=function(){
 if(document.URL=="http://itdb.biz/referencje/")
 {
 
+	
 
-	document.querySelector('.z1 img').style.maxWidth="none";
-	document.querySelector('.z1 img').style.width="none";
+	
+
 	document.querySelector('.z1').onclick=function(){
 	document.querySelector(".z1 img").animate([
 		// keyframes
