@@ -139,7 +139,7 @@
 })(jQuery);
 
 
-if(document.url=='http://itdb.biz/')
+if(document.URL=='http://itdb.biz/')
 {
 document.querySelector('#menu-item-11371').onclick=function(){
 	
@@ -160,7 +160,7 @@ document.querySelector('.vc_custom_1642766971322').onclick=function(){
 
 }
 
-if(document.url=="http://itdb.biz/referencje/")
+if(document.URL=="http://itdb.biz/referencje/")
 {
 document.querySelector('.z1').onclick=function(){
 	document.querySelector(".z1 img").animate([
