@@ -99,7 +99,7 @@
 								<li class="flickr"><a href="<?php echo esc_url( consultix_global_var( 'social-icon-flickr', '', false ) ); ?>" <?php echo esc_attr( $social_target ); ?>><i class="fa fa-flickr"></i></a></li>
 							<?php endif; ?>
 							<?php if ( ( consultix_global_var( 'social-icon-linkedin', '', false ) ) ) : ?>
-								<li class="linkedin"><a href="<?php echo esc_url( consultix_global_var( 'social-icon-linkedin', '', false ) ); ?>" <?php echo esc_attr( $social_target ); ?>><i class="fa fa-linkedin"></i></a></li>
+								<li class="linkedin"><a href="<?php echo 'https://www.linkedin.com/company/pure-conferences/' ?>" <?php echo esc_attr( $social_target ); ?>><i class="fa fa-linkedin"></i></a></li>
 							<?php endif; ?>
 							<?php if ( ( consultix_global_var( 'social-icon-pinterest', '', false ) ) ) : ?>
 								<li class="pinterest"><a href="<?php echo esc_url( consultix_global_var( 'social-icon-pinterest', '', false ) ); ?>" <?php echo esc_attr( $social_target ); ?>><i class="fa fa-pinterest-p"></i></a></li>
