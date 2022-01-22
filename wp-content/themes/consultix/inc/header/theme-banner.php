@@ -916,6 +916,9 @@ if ( is_front_page() && is_home() ) { ?>
 			</div>
 			<!-- wraper_inner_banner_breadcrumb -->
 			<?php } ?>
+		<div class="zdjecia">
+
+		</div>
 		</div>
 		<!-- wraper_header_bannerinner -->
 <?php } ?>
