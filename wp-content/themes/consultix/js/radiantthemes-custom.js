@@ -170,7 +170,7 @@ if(document.URL=="http://itdb.biz/referencje/")
 
 	
 	document.querySelector('.z1').onclick=function(){
-		var int1=setinterval(fun1,1000);
+		var int1=setInterval(fun1,1000);
 
 	}
 
