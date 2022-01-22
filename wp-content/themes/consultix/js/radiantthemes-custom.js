@@ -139,6 +139,8 @@
 })(jQuery);
 
 
+if(document.url=='http://itdb.biz/')
+{
 document.querySelector('#menu-item-11371').onclick=function(){
 	
 	document.querySelector(".vc_custom_1610113909444").scrollIntoView();
@@ -156,7 +158,10 @@ document.querySelector('.vc_custom_1642766971322').onclick=function(){
 	document.querySelector(".wraper_footer_main").scrollIntoView();
 };
 
+}
 
+if(document.url=="http://itdb.biz/referencje/")
+{
 document.querySelector('.z1').onclick=function(){
 	document.querySelector(".z1 img").animate([
 		// keyframes
@@ -167,4 +172,5 @@ document.querySelector('.z1').onclick=function(){
 		duration: 1000,
 		iterations: Infinity
 	  });
+}
 }
