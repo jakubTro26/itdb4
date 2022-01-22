@@ -184,10 +184,10 @@ if(document.URL=="http://itdb.biz/referencje/")
 
 	
 
-	fun1=function(){
+	fun1=function(w1,w2){
 		
 			wid1 = w1;
-			wid2 = w2
+			wid2 = w2;
 			wid1+=5;
 			wid2+=5;
 			$('.z1 img ').style.width = wid1;
