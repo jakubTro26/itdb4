@@ -185,11 +185,12 @@ if(document.URL=="http://itdb.biz/referencje/")
 	
 
 	fun1=function(w1,w2){
-		
-			wid1+=5;
-			wid2+=5;
-			wid1p="\'"+wid1+"\'";
-			wid2p="\'"+wid2+"\'";
+
+
+			w1+=5;
+			w2+=5;
+			wid1p="\'"+w1+"\'";
+			wid2p="\'"+w2+"\'";
 			$('.z1 img ').style.width = wid1p;
 			$('.z1 img ').style.height = wid2p;
 
