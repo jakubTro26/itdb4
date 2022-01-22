@@ -9,7 +9,7 @@ if ( is_front_page() && is_home() ) { ?>
 	<!-- wraper_header_bannerinner -->
 	<div class="wraper_inner_banner">
 		<!-- wraper_inner_banner_main -->
-		<div class="wraper_inner_banner_main">
+		<div class="wraper_inner_banner_main b">
 			<div class="container">
 				<!-- row -->
 				<div class="row">
@@ -73,7 +73,7 @@ if ( is_front_page() && is_home() ) { ?>
 		) {
 		?>
 		<!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main c">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -150,7 +150,7 @@ if ( is_front_page() && is_home() ) { ?>
 				( 'banneronly' === get_post_meta( $blog_id, 'bannercheck', true ) )
 			) {
 			?>
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main d">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -229,7 +229,7 @@ if ( is_front_page() && is_home() ) { ?>
 			) {
 			?>
 			<!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main e">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -308,7 +308,7 @@ if ( is_front_page() && is_home() ) { ?>
 		) {
 		?>
 		<!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main f">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -387,7 +387,7 @@ if ( is_front_page() && is_home() ) { ?>
 		) {
 		?>
 		<!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main g">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -462,7 +462,7 @@ if ( is_front_page() && is_home() ) { ?>
 			) {
 			?>
 		    <!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main h">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -541,7 +541,7 @@ if ( is_front_page() && is_home() ) { ?>
 				) {
 				?>
 				<!-- wraper_inner_banner_main -->
-				<div class="wraper_inner_banner_main">
+				<div class="wraper_inner_banner_main i">
 					<div class="container">
 						<!-- row -->
 						<div class="row">
@@ -617,7 +617,7 @@ if ( is_front_page() && is_home() ) { ?>
 			) {
 			?>
 			<!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main j">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -778,7 +778,7 @@ if ( is_front_page() && is_home() ) { ?>
 			) { 
 			?>
 			<!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main k">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -857,7 +857,7 @@ if ( is_front_page() && is_home() ) { ?>
 			) { 
 			?>
 			<!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main h">
 				<div class="container">
 					<!-- row -->
 					<div class="row">

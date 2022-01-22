@@ -9,7 +9,7 @@ if ( is_front_page() && is_home() ) { ?>
 	<!-- wraper_header_bannerinner -->
 	<div class="wraper_inner_banner">
 		<!-- wraper_inner_banner_main -->
-		<div class="wraper_inner_banner_main">
+		<div class="wraper_inner_banner_main i">
 			<div class="container">
 				<!-- row -->
 				<div class="row">
@@ -73,7 +73,7 @@ if ( is_front_page() && is_home() ) { ?>
 		) {
 		?>
 		<!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main j">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -150,7 +150,7 @@ if ( is_front_page() && is_home() ) { ?>
 				( 'Banner-only' === consultix_global_var( 'short-header', '', false ) )
 			) {
 			?>
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main k">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -229,7 +229,7 @@ if ( is_front_page() && is_home() ) { ?>
 			) {
 			?>
 			<!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main l">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -308,7 +308,7 @@ if ( is_front_page() && is_home() ) { ?>
 		) {
 		?>
 		<!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main m">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -387,7 +387,7 @@ if ( is_front_page() && is_home() ) { ?>
 		) {
 		?>
 		<!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main n">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -462,7 +462,7 @@ if ( is_front_page() && is_home() ) { ?>
 			) {
 			?>
 		    <!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main o">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -541,7 +541,7 @@ if ( is_front_page() && is_home() ) { ?>
 				) {
 				?>
 				<!-- wraper_inner_banner_main -->
-				<div class="wraper_inner_banner_main">
+				<div class="wraper_inner_banner_main p">
 					<div class="container">
 						<!-- row -->
 						<div class="row">
@@ -617,7 +617,7 @@ if ( is_front_page() && is_home() ) { ?>
 			) {
 			?>
 			<!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main s">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -778,7 +778,7 @@ if ( is_front_page() && is_home() ) { ?>
 			) { 
 			?>
 			<!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main t">
 				<div class="container">
 					<!-- row -->
 					<div class="row">
@@ -857,7 +857,7 @@ if ( is_front_page() && is_home() ) { ?>
 			) { 
 			?>
 			<!-- wraper_inner_banner_main -->
-			<div class="wraper_inner_banner_main">
+			<div class="wraper_inner_banner_main o">
 				<div class="container">
 					<!-- row -->
 					<div class="row">

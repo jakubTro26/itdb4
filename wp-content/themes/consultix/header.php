@@ -26,9 +26,9 @@
 ?>
 
 <?php if ( ( consultix_global_var( 'header-style', '', false ) ) ) { ?>
-<body <?php echo esc_html( $scrollbar_switch ); ?> <?php body_class() . 'a' ?> data-nicescroll-cursorcolore="<?php echo esc_attr( $data_nicescroll_cursorcolor ); ?>" data-nicescroll-cursorwidth="<?php echo esc_attr( $data_nicescroll_cursorwidth ); ?>">
+<body <?php echo esc_html( $scrollbar_switch ); ?> <?php body_class() . 'a' ?> data-nicescroll-cursorcolor="<?php echo esc_attr( $data_nicescroll_cursorcolor ); ?>" data-nicescroll-cursorwidth="<?php echo esc_attr( $data_nicescroll_cursorwidth ); ?>">
 <?php } else { ?>
-<body <?php echo esc_html( $scrollbar_switch ); ?> <?php body_class() . 'b' ?> data-nicescroll-cursorcolore="09276f" data-nicescroll-cursorwidth="10px">
+<body <?php echo esc_html( $scrollbar_switch ); ?> <?php body_class() . 'b' ?> data-nicescroll-cursorcolor="09276f" data-nicescroll-cursorwidth="10px">
 <?php } ?>
 <?php wp_body_open(); ?>
 	<?php

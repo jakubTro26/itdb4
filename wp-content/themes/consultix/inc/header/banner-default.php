@@ -8,7 +8,7 @@
 	<!-- wraper_header_bannerinner -->
 	<div class="wraper_inner_banner">
 		<!-- wraper_inner_banner_main -->
-		<div class="wraper_inner_banner_main">
+		<div class="wraper_inner_banner_main a">
 			<div class="container">
 				<!-- row -->
 				<div class="row">
