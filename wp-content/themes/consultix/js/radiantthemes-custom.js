@@ -168,16 +168,13 @@ if(document.URL=="http://itdb.biz/referencje/")
 	document.querySelector('.z1 img').style.maxWidth="none";
 	document.querySelector('.z1 img').style.width="100%";
 
-	document.querySelector('.z1').onclick=function(){
-	document.querySelector(".z1 img").animate([
-		// keyframes
-		{ width: '100%' },
-		{ width: '200%' }
-	  ], {
-		// timing options
-		duration: 300,
-		iterations: 1
-		 
+	
+
+	$( ".z1" ).click(function() {
+		$( ".z1 img" ).animate({
+		  width: 200%
+		}, 5000, function() {
+		  // Animation complete.
+		});
 	  });
-}
 }
