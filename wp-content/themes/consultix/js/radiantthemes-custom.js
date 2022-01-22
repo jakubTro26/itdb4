@@ -175,8 +175,8 @@ if(document.URL=="http://itdb.biz/referencje/")
 
 	
 	$('.z1').onclick=function(){
-		var w1 =	$('.z1 img ').style.width;
-		var w2 =    $('.z1 img ').style.height;
+		var w1 =	$('.z1 img ').width;
+		var w2 =    $('.z1 img ').height;
 		var int1=setInterval(fun1,100,w1,w2);
 
 	}
@@ -190,8 +190,8 @@ if(document.URL=="http://itdb.biz/referencje/")
 			wid2 = w2;
 			wid1+=5;
 			wid2+=5;
-			$('.z1 img ').style.width = wid1;
-			$('.z1 img ').style.height = wid2;
+			$('.z1 img ').width = wid1;
+			$('.z1 img ').height = wid2;
 
 	}
 }
