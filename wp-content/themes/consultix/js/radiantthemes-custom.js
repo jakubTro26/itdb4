@@ -163,13 +163,13 @@ document.querySelector('.vc_custom_1642766971322').onclick=function(){
 if(document.URL=="http://itdb.biz/referencje/")
 {
 
-	
+	const q = document.querySelectorAll.bind(document);
 
 	document.querySelector('.z1 img').style.maxWidth="none";
 	document.querySelector('.z1 img').style.width="100%";
 
 	
-	document.querySelector('.z1').onclick=function(){
+	q('.z1').onclick=function(){
 		var int1=setInterval(fun1,100);
 
 	}
@@ -178,7 +178,8 @@ if(document.URL=="http://itdb.biz/referencje/")
 	
 
 	fun1=function(){
-			document.querySelector('.z1 img ').style.width=200;
-			document.querySelector('.z1 img ').style.height=200;
+			console.log('kuba');
+			q('.z1 img ').style.width;
+			q('.z1 img ').style.height;;
 	}
 }
