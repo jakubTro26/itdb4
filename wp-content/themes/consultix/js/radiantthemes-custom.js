@@ -165,7 +165,7 @@ if(document.URL=="http://itdb.biz/referencje/")
 document.querySelector('.z1').onclick=function(){
 	document.querySelector(".z1 img").animate([
 		// keyframes
-		{ width: '100px;' },
+		{ width: '100px' },
 		{ width: '200px' }
 	  ], {
 		// timing options
