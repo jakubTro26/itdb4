@@ -170,6 +170,12 @@ if(document.URL=="http://itdb.biz/referencje/")
 
 	
 
+	jQuery(document).ready(function($){
+		//you can now use $ as your jQuery object.
+		var body = $( 'body' );
+	 
+
+
 	$( ".z1" ).click(function() {
 		$( ".z1 img" ).animate({
 		  width: 0.25,
@@ -179,4 +185,7 @@ if(document.URL=="http://itdb.biz/referencje/")
 		  // Animation complete.
 		});
 	  });
+
+
+	});
 }
