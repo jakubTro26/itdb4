@@ -178,7 +178,7 @@ if(document.URL=="http://itdb.biz/referencje/")
 	
 
 	fun1=function(){
-		console.log(int1);
+		console.log('kuba');
 
 	}
 }
