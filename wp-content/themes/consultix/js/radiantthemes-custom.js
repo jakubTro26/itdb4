@@ -174,8 +174,8 @@ if(document.URL=="http://itdb.biz/referencje/")
 		{ width: '200%' }
 	  ], {
 		// timing options
-		duration: 300,
-		iterations: 1
+		duration: 300
+		
 		 
 	  });
 }
