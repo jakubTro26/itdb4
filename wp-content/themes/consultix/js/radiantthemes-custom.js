@@ -158,6 +158,13 @@ document.querySelector('.vc_custom_1642766971322').onclick=function(){
 	document.querySelector(".wraper_footer_main").scrollIntoView();
 };
 
+document.querySelector('.menu-item-11379').onclick=function(){
+	
+	document.querySelector(".wraper_footer_main").scrollIntoView();
+};
+
+
+
 }
 
 
