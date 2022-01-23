@@ -916,7 +916,7 @@ if ( is_front_page() && is_home() ) { ?>
 			</div>
 			<!-- wraper_inner_banner_breadcrumb -->
 			<?php } ?>
-		<div class="zdjecia">
+		<!-- <div class="zdjecia">
 							<div class="column1">
 								<div class="z1">
 									<img src="https://www.pureconferences.pl/wp-content/uploads/2015/04/referencja_microsoft1-717x1024.jpg">
@@ -989,7 +989,7 @@ if ( is_front_page() && is_home() ) { ?>
 
 							</div>
 
-		</div>
+		</div> -->
 		</div>
 		<!-- wraper_header_bannerinner -->
 <?php } ?>
