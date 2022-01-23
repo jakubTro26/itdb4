@@ -5143,7 +5143,7 @@ body .default-page .comments-area{    padding-top: 80px !important;}
   }
 
   .mailto{
-    color:white;
+    color:white !important;
   }
 
   @media (min-width: 1200px)
