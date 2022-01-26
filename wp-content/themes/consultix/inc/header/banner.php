@@ -876,6 +876,9 @@ if ( is_front_page() && is_home() ) { ?>
 
 											echo 'Webinary';
 										}
+										else if(strpos(esc_html( get_post_meta( $post->ID, 'banner_title', true ) ), 'Business')){
+											echo 'targi';
+										}
 										
 										else  {
 											echo esc_html( get_post_meta( $post->ID, 'banner_title', true ) );
