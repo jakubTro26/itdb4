@@ -866,7 +866,15 @@ if ( is_front_page() && is_home() ) { ?>
 							<div class="inner_banner_main">
 								<?php if ( get_post_meta( $post->ID, 'banner_title', true ) ) : ?>
 									<p class="title">
-										<?php echo esc_html( get_post_meta( $post->ID, 'banner_title', true ) ); ?>
+										<?php
+										if(esc_html( get_post_meta( $post->ID, 'banner_title', true ) ) =='Financial Planning'){
+
+											echo 'konferencje';
+										}
+										
+										
+										
+										?>
 									</p>
 								<?php else : ?>
 									<p class="title">
