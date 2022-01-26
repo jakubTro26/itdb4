@@ -867,12 +867,12 @@ if ( is_front_page() && is_home() ) { ?>
 								<?php if ( get_post_meta( $post->ID, 'banner_title', true ) ) : ?>
 									<p class="title b">
 										<?php
-										echo esc_html( get_post_meta( $post->ID, 'banner_title', true ) );
+									
 										if(esc_html( get_post_meta( $post->ID, 'banner_title', true ) ) =='Financial Planning'){
 
 											echo 'Konferencje';
 										}
-										else if(esc_html( get_post_meta( $post->ID, 'banner_title', true ) ) =='Software & Research'){
+										else if(str_contains(esc_html( get_post_meta( $post->ID, 'banner_title', true ) ), 'Research')){
 
 											echo 'Konferencje';
 										}
