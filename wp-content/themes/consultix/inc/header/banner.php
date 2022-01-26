@@ -869,7 +869,10 @@ if ( is_front_page() && is_home() ) { ?>
 										<?php
 										if(esc_html( get_post_meta( $post->ID, 'banner_title', true ) ) =='Financial Planning'){
 
-											echo 'konferencje';
+											echo 'Konferencje';
+										}
+										else {
+											echo esc_html( get_post_meta( $post->ID, 'banner_title', true ) );
 										}
 										
 										
