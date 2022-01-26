@@ -14,7 +14,7 @@
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<!-- inner_banner_main -->
-						<div class="inner_banner_main">
+						<div class="inner_banner_main w">
 							
 							<p class="subtitle">
 								<?php echo esc_html( get_bloginfo( 'description' ) ); ?>

@@ -15,7 +15,7 @@ if ( is_front_page() && is_home() ) { ?>
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<!-- inner_banner_main -->
-						<div class="inner_banner_main">
+						<div class="inner_banner_main l">
 							<p class="title">
 								<?php echo esc_html( get_bloginfo( 'name' ) ); ?>
 							</p>
@@ -79,7 +79,7 @@ if ( is_front_page() && is_home() ) { ?>
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<!-- inner_banner_main -->
-							<div class="inner_banner_main">
+							<div class="inner_banner_main m">
 								<?php if ( get_post_meta( $post->ID, 'banner_title', true ) ) : ?>
 									<p class="title">
 										<?php echo esc_html( get_post_meta( $post->ID, 'banner_title', true ) ); ?>
@@ -156,7 +156,7 @@ if ( is_front_page() && is_home() ) { ?>
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<!-- inner_banner_main -->
-							<div class="inner_banner_main">
+							<div class="inner_banner_main n">
 								<?php if ( get_post_meta( $blog_id, 'banner_title', true ) ) : ?>
 									<p class="title">
 										<?php echo esc_html( get_post_meta( $blog_id, 'banner_title', true ) ); ?>
@@ -235,7 +235,7 @@ if ( is_front_page() && is_home() ) { ?>
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<!-- inner_banner_main -->
-							<div class="inner_banner_main">
+							<div class="inner_banner_main o">
 								<?php if ( get_post_meta( $team_page_id, 'banner_title', true ) ) : ?>
 									<p class="title">
 										<?php echo esc_html( get_post_meta( $team_page_id, 'banner_title', true ) ); ?>
@@ -863,7 +863,7 @@ if ( is_front_page() && is_home() ) { ?>
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<!-- inner_banner_main -->
-							<div class="inner_banner_main">
+							<div class="inner_banner_main z">
 								<?php if ( get_post_meta( $post->ID, 'banner_title', true ) ) : ?>
 									<p class="title">
 										<?php
