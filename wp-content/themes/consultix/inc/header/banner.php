@@ -871,12 +871,12 @@ if ( is_front_page() && is_home() ) { ?>
 
 											echo 'Konferencje';
 										}
-										if(esc_html( get_post_meta( $post->ID, 'banner_title', true ) ) =='Software & Research'){
+										else if(esc_html( get_post_meta( $post->ID, 'banner_title', true ) ) =='Software & Research'){
 
 											echo 'Webinary';
 										}
 										
-										else {
+										else  {
 											echo esc_html( get_post_meta( $post->ID, 'banner_title', true ) );
 										}
 										
