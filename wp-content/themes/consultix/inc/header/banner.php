@@ -872,7 +872,7 @@ if ( is_front_page() && is_home() ) { ?>
 
 											echo 'Konferencje';
 										}
-										else if(str_contains(esc_html( get_post_meta( $post->ID, 'banner_title', true ) ), 'Research')){
+										else if(strpos(esc_html( get_post_meta( $post->ID, 'banner_title', true ) ), 'Research')){
 
 											echo 'Konferencje';
 										}
