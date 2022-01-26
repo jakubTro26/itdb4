@@ -874,7 +874,7 @@ if ( is_front_page() && is_home() ) { ?>
 										}
 										else if(strpos(esc_html( get_post_meta( $post->ID, 'banner_title', true ) ), 'Research')){
 
-											echo 'Konferencje';
+											echo 'Webinary';
 										}
 										
 										else  {
