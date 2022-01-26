@@ -865,7 +865,7 @@ if ( is_front_page() && is_home() ) { ?>
 							<!-- inner_banner_main -->
 							<div class="inner_banner_main z">
 								<?php if ( get_post_meta( $post->ID, 'banner_title', true ) ) : ?>
-									<p class="title">
+									<p class="title b">
 										<?php
 										if(esc_html( get_post_meta( $post->ID, 'banner_title', true ) ) =='Financial Planning'){
 
@@ -882,7 +882,7 @@ if ( is_front_page() && is_home() ) { ?>
 										?>
 									</p>
 								<?php else : ?>
-									<p class="title">
+									<p class="title a">
 										<?php echo esc_html( get_bloginfo( 'name' ) ); ?>
 									</p>
 									<p class="subtitle">
